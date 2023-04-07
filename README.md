@@ -86,19 +86,15 @@ With this project can try to query with the following code to get a taste of how
 
 ```graphql
 query {
-  spotLimitOrders(first: 50, orderBy: AMOUNT_DESC) {
+  delegatorRewards(first: 20, orderBy: BLOCK_HEIGHT_DESC) {
     totalCount
     nodes {
       id
       blockHeight
       txHash
-      marketID
-      orderType
-      subAccountID
-      feeRecipient
-      price
-      quantity
-      amount
+      rewardAmount
+      delegatorAddress
+      validatorAddress
     }
   }
 }
