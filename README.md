@@ -1,12 +1,12 @@
-# SubQuery - Starter Package for Cosmos Injective
+# SubQuery - Starter Package for Cosmos Comdex
 
-A basic Cosmos (based on Injective) example project with an event and message handler. Read more about SubQuery support for Cosmos at https://academy.subquery.network/quickstart/quickstart_chains/cosmos.html.
+A basic Cosmos (based on Comdex) example project with an event and message handler. Read more about SubQuery support for Cosmos at https://academy.subquery.network/quickstart/quickstart_chains/cosmos.html.
 
 The Starter Package is an example that you can use as a starting point for developing your SubQuery project.
 
 A SubQuery package defines which data SubQuery will index from the blockchain, and how it will store it.
 
-This Starter Package by default allows **indexing all spot limit orders from Injective**.
+This Starter Package by default allows **indexing all spot limit orders from Comdex**.
 
 ## Preparation
 
