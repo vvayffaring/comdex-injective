@@ -17,7 +17,7 @@ network:
   # This endpoint must be a public non-pruned archive node
   # Public nodes may be rate limited, which can affect indexing speed
   # When developing your project we suggest getting a private API key
-  endpoint: "https://rpc.comdex.chaintools.tech/"
+  endpoint: "https://zenchainlabs.io/"
   # Optionally provide the HTTP endpoint of a full chain dictionary to speed up processing
   # dictionary: "https://api.subquery.network/sq/subquery/injective-hub-dictionary"
   chainTypes: # This is a beta feature that allows support for any Cosmos chain by importing the correct protobuf messages
